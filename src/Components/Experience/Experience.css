@@ -1,0 +1,34 @@
+.ExperieceContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 20px 5% 60px 5%;
+}
+.ExperinceHeader {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+  width: 140px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #e2e1df;
+}
+.ExperinceSubHeader {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px;
+}
+.ExperienceCards {
+  display: flex;
+  flex-direction: row;
+  width: 1120px;
+  border: 1.5px solid rgb(253, 252, 252);
+  border-radius: 40px;
+  margin-bottom: 50px;
+  box-shadow: 4px 4px 8px 2px rgba(56, 56, 56, 0.5);
+}

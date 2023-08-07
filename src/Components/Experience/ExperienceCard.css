@@ -1,0 +1,25 @@
+.ExperienceCardComponent {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.ExperienceCardCompany {
+  width: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ExperienceCardDiscription {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 420px;
+  font-size: 18px;
+  font-weight: 500px;
+}
+.ExperienceCardTime {
+  display: flex;
+  padding: 20px;
+  font-weight: 600;
+  width: 251px;
+}

@@ -1,0 +1,111 @@
+.AboutMe {
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+  height: 800px;
+  margin: 50px;
+}
+.AboutHeader {
+  display: flex;
+  justify-content: center;
+  margin: 20px 542px;
+  width: 140px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #e2e1df;
+}
+
+.AboutBody {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: 734px;
+}
+.AboutImage {
+  display: flex;
+  padding-top: 70px;
+  flex-direction: column;
+  width: 600px;
+  height: 630px;
+  padding-left: 60px;
+}
+.AboutMySelf {
+  position: relative;
+  margin-left: 10%;
+  width: 550px;
+  height: 630px;
+}
+.AboutProfile {
+  position: absolute;
+  width: 400px;
+  height: 582px;
+  margin-left: 40px;
+  z-index: 2;
+}
+.AboutShadow1 {
+  position: absolute;
+  width: 400px;
+  height: 582px;
+  margin-left: 30px;
+  margin-top: 10px;
+  background-color: white;
+  z-index: 1;
+}
+.AboutShadow2 {
+  position: absolute;
+  width: 400px;
+  height: 582px;
+  margin-top: 40px;
+  background-color: rgba(177, 175, 175, 0.74);
+  z-index: 0;
+}
+.AboutP {
+  padding: 5px;
+}
+.AboutMyBody {
+  font-size: 16px;
+}
+.AboutFotter {
+  display: flex;
+  flex-direction: column;
+}
+.AboutFotter1 {
+  padding-bottom: 20px;
+}
+.AboutFHeader {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.AbouterFBody1 {
+  display: flex;
+  flex-direction: row;
+  margin: 3px;
+}
+.FPoint1 {
+  display: flex;
+  width: 300px;
+  flex-direction: row;
+}
+.AbouterFBody2 {
+  display: flex;
+  flex-direction: row;
+  margin: 3px;
+}
+.FPoint2 {
+  display: flex;
+  width: 300px;
+  flex-direction: row;
+}
+.AboutDot {
+  background-color: rgba(3, 3, 3, 0.719);
+  width: 8px;
+  height: 8px;
+  display: flex;
+  border: 2px;
+  margin: 10px 5px;
+  border-radius: 4px;
+}
+.AboutStatus {
+  padding-left: 8px;
+}
