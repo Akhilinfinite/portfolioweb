@@ -22,10 +22,6 @@ export default class Skills extends Component {
         image: "ReactJS.png",
       },
       {
-        name: "Express JS",
-        image: "ExpressJS.png",
-      },
-      {
         name: "Node JS",
         image: "NodeJS.png",
       },
